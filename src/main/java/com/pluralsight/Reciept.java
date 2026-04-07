@@ -5,6 +5,7 @@ public class Reciept {
         String item = "Yo-yo";
         double price = 2.99;
         int quantity = 3;
-        System.out.println("I bought " + quantity + " " + item + " for the kids, total was " + price);
+        double totalPrice = price * quantity;
+        System.out.println("I bought " + quantity + " " + item + "s, one for each kid, and total was " + totalPrice);
     }
 }
